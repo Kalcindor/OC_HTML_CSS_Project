@@ -519,6 +519,11 @@ a {
     padding: 0 0 0 100px;
   }
 
+  .acc-nav,
+  .act-nav {
+    padding-top: 16px;
+  }
+
   .search-filters {
     width: 668px;
     height: 91px;
