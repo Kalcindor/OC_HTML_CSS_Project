@@ -600,6 +600,13 @@ a {
   .activities-section {
     width: 924px;
     height: 390px;
+    margin: 0 0 10px 30px;
+    padding: 0;
+  }
+
+  .activities-title {
+    width: 864px;
+    margin: 60px 0 30px 4px;
   }
 
   .activities-cards {
@@ -609,6 +616,10 @@ a {
 
   .act-card {
     width: 193px;
+  }
+
+  .act-card-content {
+    height: 70px;
   }
 
   .act-card-img {
