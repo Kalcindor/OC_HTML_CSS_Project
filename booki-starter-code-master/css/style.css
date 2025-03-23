@@ -524,8 +524,11 @@ a {
     height: 91px;
     display: flex;
     flex-direction: column;
-
     margin-bottom: 25px;
+  }
+
+  .filters-title {
+    margin: 0;
   }
 
   .main {
