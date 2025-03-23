@@ -686,7 +686,7 @@ a {
   .acc-nav:hover,
   .act-nav:hover {
     color: initial;
-    border-top: none !important;
+    border-top: none;
   }
 
   .acc-nav:active,
@@ -695,28 +695,32 @@ a {
     color: var(--main-color);
   }
 
-  /*
-  .acc-nav:active,
-  .act-nav:active {
-    border-bottom: 2px solid var(--main-color);
-    border-top: 0;
-  } */
-
   .search-filters {
     width: 335px;
-    height: 160px;
+    height: 161px;
+    gap: 18px;
   }
 
   .filters-btn-container {
+    height: 160px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 0; /* TO BE CHECKED */
+    gap: 11px;
   }
 
   .filter-btn {
     width: 162px;
+  }
+
+  .main-title-container {
+    width: 335px;
+    height: 79px;
+  }
+
+  .main-title {
+    height: 52px;
   }
 
   .info-text {
