@@ -588,6 +588,14 @@ a {
     margin: 0;
   }
 
+  .acc-card-title {
+    margin: 4px 0 6px 0;
+  }
+
+  .acc-card-subtitle {
+    margin: 6px 0 4px 0;
+  }
+
   .acc-card-img {
     width: 258px;
   }
@@ -821,6 +829,14 @@ a {
   .acc-card {
     width: 325px;
     margin: 0;
+  }
+
+  .acc-card-title {
+    margin: 4px 0 6px 0;
+  }
+
+  .acc-card-subtitle {
+    margin: 6px 0 4px 0;
   }
 
   .acc-card-img {
