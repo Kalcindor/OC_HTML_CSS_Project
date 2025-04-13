@@ -18,7 +18,7 @@ body {
   width: 1440px;
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: auto;
 }
 
 .main-container {
@@ -474,7 +474,9 @@ a {
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
   body {
-    margin: 0;
+    max-width: 1024px;
+    margin: auto;
+    overflow-x: hidden;
   }
 
   .main-container {
@@ -639,11 +641,10 @@ a {
   body {
     width: 100%;
     max-width: 375px;
-    margin: 0 auto;
+    margin: 0;
   }
 
   .main-container {
-    width: 100%;
     max-width: 375px;
     padding: 0;
     box-sizing: border-box;
